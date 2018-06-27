@@ -1,0 +1,265 @@
+
+/*** global styling***/
+
+* {
+    box-sizing: border-box;
+}
+
+.scroll-effect {
+    position: relative;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+p, ul, h2, h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: left;
+    font-size: 150%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h2 {
+    color: maroon;
+    font-size: 200%;
+    margin-left: 5%;
+    margin-right: 20%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 300%;
+}
+
+/* nav starts here*/
+
+.nav-button {
+    position: relative;
+    width: auto;
+    padding-right: 5.625em;
+    font-weight:bolder;
+    background-color: transparent;
+    color: #f2f2f2;
+    display: inline-block;
+
+}
+.nav-button h3, p{
+  font-weight: bolder;
+}
+.projectName a {
+    text-decoration: none;
+    font-size: 200%;
+    font-weight: bolder;
+    color:red;
+}
+
+.light-back {
+    color: brown;
+}
+
+
+
+
+/***home ***/
+
+.index-background {
+    background-image: url(../img/img2.jpg);
+    padding-top: 5.625em;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*about starts here*/
+
+#about {
+    padding-top: 5.625em;
+    background-image: url(../img/img7.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+
+    font-weight: bolder;
+
+}
+
+.about-me {
+    padding: 1em;
+    background-color: #00bdbd;
+}
+
+.main-text {
+    height: 100%;
+    clear: both;
+    margin-top: 10em;
+    background-color: #ffdab9;
+    background-size: cover;
+    box-shadow: .625em .625em .938em;
+}
+
+.image {
+    margin-right: 6em;
+}
+
+/***work starts here***/
+
+#work {
+    background: white;
+    align-content: center;
+    padding-bottom: 6em;
+}
+
+.edit-obj {
+    background-color: white;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    padding-left: 1em;
+    padding-top: 2em;
+}
+
+    .edit-obj p {
+        font-weight: bolder;
+    }
+
+
+.info{
+  display: none;
+  position: absolute;
+  top: 30%;
+  text-align: center;
+  color:#fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.5em;
+  line-height: 1.6;
+}
+
+.proj-title{
+  font-weight: 100;
+}
+
+/*** contact starts here ***/
+
+#contact-back {
+    padding-top: 5.625em;
+    background-image: url(../img/img17.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.cont-head {
+    color: white;
+    font-weight: bolder;
+    padding-top: 3em;
+}
+
+.contact1 {
+    margin: 0 auto;
+    width: 80%;
+    padding-bottom: 6em
+}
+
+.cont-format {
+    clear: both;
+    display: inline-block;
+    background-color: grey;
+    margin-bottom: 1em;
+    box-shadow: .625em .625em .938em;
+}
+
+.write {
+    float: right;
+    padding-bottom: 3em;
+}
+
+.call {
+    float: left;
+}
+
+    .call .write div {
+        display: inline-block;
+        width: 25%;
+    }
+    #map {
+      height:300px;
+      width:100%;
+    }
+
+/*** faq starts here ***/
+
+#format-faq {
+    padding-bottom: 3em;
+    width: 80%;
+    height: 100%;
+    clear: both;
+}
+
+.faq-head {
+    text-align: center;
+    color: maroon;
+    width: 80%;
+}
+
+.modal-button {
+    float: right;
+    padding: 1em;
+    padding-right: 12em;
+}
+
+#cv {
+    height: 40em;
+    width: 100%;
+    padding: 1em;
+}
+
+#faq {
+    padding-top: 5.625em;
+    background-image: url(../img/img10.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.panel {
+    background-color: #ffdab9;
+    background-size: cover;
+    box-shadow: .625em .625em .938em;
+}
+
+/*vid-cont to footer*/
+
+.footer-vid {
+    clear: both;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 2em;
+    padding-top: 2em;
+    padding-bottom: 20em;
+}
+
+.social {
+
+    margin-left: 40%;
+    text-decoration: none;
+}
+
+.copyright {
+    clear: both;
+}
